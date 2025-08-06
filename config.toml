@@ -1,5 +1,5 @@
 [benchmark]
-exe_path   = "FurMark.exe"
+exe_path   = "./FurMark_win64/furmark.exe"
 width      = 1920
 height     = 1080
 msaa       = 4
