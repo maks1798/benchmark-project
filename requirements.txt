@@ -1,0 +1,12 @@
+# Core dependencies
+toml
+nvidia-ml-py3
+sounddevice
+soundfile
+numpy
+scipy
+pandas
+matplotlib
+
+# (Optional for notebook)
+jupyter

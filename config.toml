@@ -1,0 +1,20 @@
+[benchmark]
+exe_path   = "FurMark.exe"
+width      = 1920
+height     = 1080
+msaa       = 4
+# Total run length in seconds
+duration   = 120
+# FurMark log output
+log_path   = "furmark_run.log"
+
+[audio]
+fs         = 48000     # sample rate
+channels   = 1         # mono
+wav_out    = "noise.wav"
+
+[analysis]
+delay         = 60        # seconds before stable window
+window        = 10        # length of stable window in seconds
+noise_log_csv = "noise_log.csv"
+spectrum_csv  = "spectrum.csv"
